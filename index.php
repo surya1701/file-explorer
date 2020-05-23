@@ -32,7 +32,7 @@
                 }
             }
 
-            $files = scandir('/xampp/htdocs/test/intern');
+            $files = scandir('.');
             $c = 0;
             for ($i = 0; $i < sizeof($files); $i++) {
                 if ($files[$i] == '.' || $files[$i] == '..') continue;
